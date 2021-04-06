@@ -1,0 +1,63 @@
+body{  
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #20dad8;
+    color: #570a7e;
+    
+}
+header{
+    background-color: #f8b2ba;
+    line-height: 2;
+    text-align:  center;
+    text-transform: uppercase;
+}
+main{
+    margin: 50px auto;
+    max-width: 800px; 
+    
+}
+section{
+    margin-top: 30px;
+}
+h1, h2{
+    font-family: Cambria, Times, serif;
+    background-color: #79e7d2;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+}
+h1{
+    color: #570a7e;
+    font-size: 24px; 
+    word-spacing: 1.5em;
+}
+h2{
+    color: #570a7e;
+    font-size: 18px; 
+}
+li{
+    font-style: normal;
+    font-variant: small-caps;
+}
+.item-detail{
+    font-style:oblique;
+    font-weight: bold;
+}
+footer{
+    background-color: #570a7e;  
+    color: #ddd;
+    font-size: 24px;
+    text-align: center;
+}
+.img-link{
+    width: 20px;
+    height: 20px;
+}
+.img-Juli{
+    width: 250px;
+    height: 250px;
+}
+.color1 {color: #20dad8;}
+.color2 {color: #79e7d2;}
+.color3 {color: #570a7e;}
+.color4 {color: #d05196;}
+.color5 {color: #f8b2ba;}
