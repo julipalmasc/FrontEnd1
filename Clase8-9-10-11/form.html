@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/formstyle.css">
+    <title>Añadir</title>
+</head>
+
+<body>
+    <aside class="descuento"> 20% de descuento en todos los productos! </aside>
+    <header>
+        <div class="logoTienda"></div>
+        <h1> Mi Tienda</h1>
+        <nav>
+            <ul type="none">
+                <li><a href="./contacto.html" target="_blank">Contacto</a> </li>
+                <li><a href="./registrar.html">Registrarme</a> </li>
+                <li><a href="./login.html">Ingresar</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Anadí tu super!</h2>
+            <h3>Agregá tu personaje favorito completando las opciones.</h3>
+            <div>
+                <article>
+                    <form action="form.html" method="POST">
+                        <label for="nombre" class="size20">*Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+
+                        <label for="fecha" class="size20">Fecha</label>
+                        <input type="date" name="fecha" id="fecha">
+
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descripción"></textarea>
+                    </form>
+
+                </article> 
+                <article class="articleDerecha">
+                    <form action="form.html" method="POST">
+                        <label for="especie" class="size20">*Especie</label>
+                        <input type="text" name="especie" id="especie" placeholder="Especie">
+
+                        <label for="file" class="size20">Agregar foto</label>
+                        <input type="file" name="foto" id="foto" class="seleccionar">
+
+                        <div class="tipopers"><label for="poderes" class="size20">Poderes</label></div>
+                        
+                        <div class="seleccionar">
+                            <input type="checkbox" name="volar" id="volar">
+                            <label for="volar">Volar</label>
+                        </div>
+                        <div class="seleccionar">
+                            <input type="checkbox" name="superinteligencia" id="superinteligencia" class="checkbox">
+                            <label for="superinteligencia">Superinteligencia</label>
+                        </div>
+                        <div class="seleccionar">
+                            <input type="checkbox" name="vista" id="vista" class="checkbox">
+                            <label for="vista">Vista de rayo láser</label>
+                        </div>
+                        <div class="seleccionar">
+                            <input type="checkbox" name="billetera" id="billetera" class="checkbox">
+                            <label for="billetera">Billetera gorda</label>
+                        </div>
+                        
+                        <hr>
+                        
+
+                        <div class="tipopers"><label for="tipoPersonaje" class="size20">Tipo de personaje</label></div>
+                        <div class="seleccionar">
+                            <label for="heroe"><input type="radio" name="tipoPersonaje" id="heroe">Héroe/Heroína</label>
+                        </div>
+                        <div class="seleccionar">
+                            <label for="villano"><input type="radio" name="tipoPersonaje" id="villano">Villano/Villana</label>
+                        </div>
+
+
+
+
+                    </form>
+                </article>
+            </div>
+            <input type="submit" name="anadir" id="anadir" class="botonAnadir" value="Añadir">
+        </section>
+
+
+        <footer>
+            <p class="derechos">Todos los derechos reservados a FRONT END1</p>
+        </footer>
+    </main>
+</body>
+
+</html>

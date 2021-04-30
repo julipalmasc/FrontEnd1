@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: #00669F; 
+    height: 74px;  
+    
+}
+
+.logoTienda{
+    background-image: url(../img/OBJECTS.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 16px;
+    margin-left: 110px;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    margin-top: 15px;
+    border: 1px solid black;
+    text-indent: 10px;
+}
+
+select{
+    height: 30px;
+    width: 506px;
+    margin-top: 15px;
+    border: 1px solid black;
+    text-indent: 10px;
+}
+
+::placeholder{
+    text-indent: 10px;
+    color: rgb(32, 20, 20);
+}
+
+#comentario{
+    width: 500px;
+    height: 200px;
+    margin-top: 15px;
+    border: 1px solid black;
+}
+
+.divCentral{
+    width: 510px;
+    height: 500px;
+    margin-bottom: 50px;
+    padding: 50px 410px 100px 410px;
+}
+
+h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 60px;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.artLogin{
+    margin:0;
+}
+
+.botonReset{
+    font-family: karla;
+    font-size: 18px;
+    background-color: #888888;
+    text-align: center;
+    margin-top: 40px;
+    width: 247px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;   
+    font-weight: bold; 
+    border: transparent;
+    margin-left: 0;
+    margin-right: 10px;
+    color: white;
+}
+.botonEntrar{
+    font-family: karla;
+    font-size: 18px;
+    background-color: #1CD1B0;
+    text-align: center;
+    margin-top: 40px;
+    width: 247px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;   
+    font-weight: bold; 
+    border: transparent;
+    margin-right: 0;
+}
+
+h3{
+    text-align: center;
+    font-family: karla;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.textoAzul{
+    color: #00669F;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+    position: relative;
+}
+
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+

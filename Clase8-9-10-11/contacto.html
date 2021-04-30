@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contactostyle.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <aside class="descuento"> 20% de descuento en todos los productos! </aside>
+    <header>
+        <div class="logoTienda"></div>
+        <h1> Mi Tienda</h1>
+    </header>
+    <main>
+            <div class="divCentral">
+                <h2>Contacto</h2>
+                    <form class="artLogin" action="/login" method="POST">
+                        <label for="nombreApellido"></label>
+                        <input type="text" name="nombreApellido" id="nombreApellido" placeholder="Nombre y Apellido"> 
+
+                        <label for="correo"></label>
+                        <input type="text" name="correo" id="correo" placeholder="Correo Electrónico">
+
+                        <label for="comentario"></label>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+
+                        <input type="reset" name="resetear" id="resetear" class="botonReset" value="Resetear">
+                        <input type="submit" name="entrar" id="entrar" class="botonEntrar" value="Entrar">
+                    </form>    
+            </div>
+        <footer>
+            <p class="derechos">Todos los derechos reservados a FRONT END1</p>
+        </footer>
+    </main>
+</body>
+
+</html>

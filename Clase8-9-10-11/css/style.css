@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: #00669F; 
+    height: 74px;  
+    
+}
+
+.logoTienda{
+    background-image: url(../img/OBJECTS.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 16px;
+    margin-left: 110px;
+}
+
+section{
+    width: 500px;
+    height: 400px;
+    margin: 0;
+    padding: 50px 410px 100px 410px;
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    margin-top: 15px;
+    border: 1px solid black;
+    text-indent: 10px;
+}
+
+::placeholder{
+    text-indent: 10px;
+    color:black;
+}
+
+.divCentral{
+    width: 510px;
+    
+}
+
+h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 60px;
+    font-weight: 700;
+    color: #333333;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.artLogin{
+    margin:0;
+}
+
+.botonEntrar{
+    font-family: karla;
+    font-size: 18px;
+    background-color: #1CD1B0;
+    text-align: center;
+    margin-top: 40px;
+    width: 500px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;   
+    font-weight: bold; 
+    border: transparent;
+}
+
+h3{
+    text-align: center;
+    text-decoration: none;
+    font-family: karla;
+}
+
+a{
+    text-decoration: none;
+    color: black
+}
+
+.textoAzul{
+    color: #00669F;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+    position: relative;
+}
+
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+
+
+/*article {
+    display: block;
+}
+
+.card {
+    width:400px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.card-header {
+    border-radius: 12px 12px 0px 0px;
+    display: block;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+}
+
+.card-header.img-super1 {
+    background-image: url(../img/bg-batman.jpg);
+}
+
+.card-header.img-super2 {
+    background-image: url(../img/bg-wonderw.jpg);
+}
+
+.card-header.img-super3 {
+    background-image: url(../img/bg-superman.jpg);
+}
+
+.card-body {
+    background-color: #F3F3F3;
+    height: 200px;
+    text-align: center;
+    margin: auto;
+    padding: 100px 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.fa-heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: red;
+    font-size: 30px;
+}
+.fa-plus-circle{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    color: #00669F;
+    font-size: 50px;
+}
+
+
+
+.perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+
+.super {
+    width: 400px;
+    position: relative;
+    right: 120px;
+}
+p{
+    text-align: left;
+}
+
+.button {
+    background-color: #00669F;
+    border-radius: 7px;
+    height: auto;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+
+}
+
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#github {
+    width: 70px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+} */

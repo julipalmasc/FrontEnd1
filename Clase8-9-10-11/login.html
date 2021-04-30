@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <aside class="descuento"> 20% de descuento en todos los productos! </aside>
+    <header>
+        <div class="logoTienda"></div>
+        <h1> Mi Tienda</h1>
+    </header>
+    <main>
+        <section>
+            <div class="divCentral">
+                <h2>Login</h2>
+                    <form class="artLogin" action="/login" method="POST">
+                        <label for="usuario"></label>
+                        <input type="text" name="usuario" id="usuario" placeholder="Usuario" class="usucontra"> 
+
+                        <label for="contraseña"></label>
+                        <input type="password" name="contraseña" id="contrasena" placeholder="Contraseña" class="usucontra">
+
+                        <input type="submit" name="entrar" id="entrar" class="botonEntrar" value="Entrar">
+                    </form>
+                
+                    <h3 class="bajoForm"><span class="textoAzul">¿No tienes cuenta?</span> <a href="registrar.html"> Regístrate</a></h3>                    
+            </div>
+        </section>
+       
+        <footer>
+            <p class="derechos">Todos los derechos reservados a FRONT END1</p>
+        </footer>
+    </main>
+</body>
+
+</html>

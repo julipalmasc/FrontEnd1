@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.asideCelestito {
+    background-color: #1CD1B0;
+    padding-left: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: #00669F; 
+    width: 100%; 
+    margin: 0;  
+}
+
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+
+
+section{
+    background-image: url("../img/bgharley.png");
+    background-repeat: no-repeat;
+    height: 450px;
+    padding-top: 180px;
+    padding-bottom: 50px;
+}
+
+.card-body {
+    background-color: #F3F3F3;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 40px;
+    position: relative;
+    height: 270px;
+}
+
+.perfilH{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 37%;
+    position: absolute;
+    top: -70px;
+}
+
+.button {
+    background-color: #2C0187;
+    border-radius: 0 0 45px 45px;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.dentroCard1{
+    padding: 60px 20px 0 20px;
+}
+
+.dentroCard{
+    padding: 20px 20px 0 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+    width: 100%;
+    margin-top: 0;
+}
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}

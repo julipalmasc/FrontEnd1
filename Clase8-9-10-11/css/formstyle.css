@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.descuento {
+    background-color: #1CD1B0;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-color: #00669F; 
+    width: 100%; 
+    margin: 0;  
+}
+
+.logoTienda{
+    background-image: url(../img/OBJECTS.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+h1 {
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    margin: 0;
+    padding-left: 10px;
+    padding-top: 16px;
+    margin-left: 110px;
+}
+
+nav{
+    background-color: #001D2D;
+    margin: 0;
+    height: 40px;
+}
+
+ul{
+    text-align: right;
+    padding-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline-block;
+    margin: 1%;
+}
+
+section{
+    margin: 7% 15%;
+    background-color:#00669F;
+    width: auto;
+    Height: 832px;
+    border-radius: 40px;
+    
+}
+
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    margin-bottom: 3%;
+}
+
+
+div{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#nombre, #fecha, #especie, #foto{
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 18px;
+    border: transparent;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: inter;
+    
+}
+.size20{
+    font-size: 20px;
+}
+.seleccionar{
+    font-size: 16px;
+    padding-left: 0;
+    padding: 4px;
+}
+.tipopers{
+    padding: 10px;
+    padding-left: 0;
+}
+
+
+article{
+    width: 48%;
+    height: 558px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.articleDerecha{
+    margin-left: 3%;
+}
+
+label{
+    color: white;
+}
+
+textarea{
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 18px;
+    border: transparent;
+    height: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: inter;
+}
+
+
+
+.botonAnadir{
+    background-color: #1CD1B0;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    width: 50%;
+    height: 8%;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: inter;
+    font-weight: 700;
+}
+
+.botonAnadir:hover{
+    background-color: #001D2D;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+    width: 100%;
+}
+
+.derechos {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 15px;
+}
+
